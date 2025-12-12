@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hafsah Alam – Creative Coding Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #181818;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem 3rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project-card {
+      background: #1b1b1b;
+      padding: 1rem;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+      border: 1px solid #333;
+    }
+
+    .project-card h2 {
+      margin: 0.2rem 0;
+      font-size: 1.2rem;
+    }
+
+    .project-card p {
+      color: #ccc;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #4DB8FF;
+      text-decoration: none;
+      border: 1px solid #4DB8FF;
+      padding: 0.3rem 0.7rem;
+      border-radius: 20px;
+      transition: 0.2s;
+      font-size: 0.9rem;
+    }
+
+    .project-card a:hover {
+      background: #4DB8FF;
+      color: #111;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.8rem;
+      background: #181818;
+      border-top: 1px solid #333;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hafsah Alam – Creative Coding Portfolio</h1>
+    <p>
+      A collection of interactive sketches, digital experiments, and small games created for my Creative Coding course.
+      Each project represents a new technique, idea, or challenge explored through HTML, CSS, JavaScript, and p5.js.
+    </p>
+  </header>
+
+  <main>
+    <section class="projects">
+
+      <!-- PROJECT 1 -->
+      <article class="project-card">
+        <img src="project1.png" alt="Lane-switching game screenshot">
+        <h2>Gravity Switch Runner</h2>
+        <p>
+          A one-button game inspired by Geometry Dash. The player switches between two lanes to dodge incoming triangle
+          obstacles, exploring how simple mechanics can create fast-paced, reactive gameplay.
+        </p>
+        <a href="YOUR_OPENPROCESSING_LINK_HERE" target="_blank">Play the game</a>
+      </article>
+
+      <!-- PROJECT 2 -->
+      <article class="project-card">
+        <img src="project2.png" alt="Project screenshot">
+        <h2>Project Title 2</h2>
+        <p>
+          A short 2–3 sentence description of what this project does and what you explored or learned while building it.
+        </p>
+        <a href="PROJECT2_LINK_HERE" target="_blank">View project</a>
+      </article>
+
+      <!-- PROJECT 3 -->
+      <article class="project-card">
+        <img src="project3.png" alt="Project screenshot">
+        <h2>Project Title 3</h2>
+        <p>
+          Another interactive piece demonstrating experimentation with shape, motion, and user interaction.
+        </p>
+        <a href="PROJECT3_LINK_HERE" target="_blank">View project</a>
+      </article>
+
+      <!-- PROJECT 4 -->
+      <article class="project-card">
+        <img src="project4.png" alt="Project screenshot">
+        <h2>Project Title 4</h2>
+        <p>
+          A creative coding experiment exploring pattern, randomness, repetition, or interactivity.
+        </p>
+        <a href="PROJECT4_LINK_HERE" target="_blank">View project</a>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    Creative Coding Portfolio • Fall 2025
+  </footer>
+
+</body>
+</html>
